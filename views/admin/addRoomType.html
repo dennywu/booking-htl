@@ -1,0 +1,55 @@
+<form id="FormEditRoomType" style="margin:0px;">
+  <div class = "DialogEditRoomType">
+    <div class="HeaderDialogEditBilling">
+      <div class="HeaderLogoEditBilling"></div>
+      <div class="TitleHeaderDialogEditBilling">Tambah Tipe Kamar</div>
+    </div>
+    <div class="BodyDialogEditBilling" style="margin-top:30px">
+      <table width="100%">
+        <tbody>
+          <tr>
+            <td align="right" width="30%" style="font-size:14px">Kode Tipe Kamar</td>
+            <td style="padding-left:10px">
+		  <input type="text" name="Typeid" id="TypeId"/>
+            </td>
+            <td width="5%"></td>
+          </tr>
+          <tr>
+            <td align="right" style="font-size:14px">Tipe Kamar</td>
+            <td style="padding-left:10px">
+                <input type="text" name="roomType" id="TypeName"/>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td align="right" style="font-size:14px">Jumlah Kamar</td>
+            <td style="padding-left:10px">
+              <input type="text"  name="total" id="TotalRoom"/>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td align="right" tyle="font-size:14px">Harga</td>
+            <td style="padding-left:10px">
+              <input type="text" name="price" id="Harga" />
+              </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td colspan="3">
+              <div style="margin-top:10px; text-align: center;">
+                <p style="font-size:11px">
+                    <input type="button" name="save" value="Simpan" class="AddRoomType" onclick="addRoomType()"/>
+		<span id="batalArea">
+                    atau
+                    <span id="CancelEditRoomType" onclick="closeDialogEditRoomType()">Batal</span>
+                  </span>
+                </p>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</form>

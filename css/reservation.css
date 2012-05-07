@@ -1,0 +1,153 @@
+div.reservationContain{
+	width: 985px;
+	margin: 28px auto 0;
+}
+#page-container {
+	margin: 0 auto;
+	position: relative;
+	text-align: left;
+	width: 970px;
+}
+#hotel-title-area {
+	height: auto;
+	vertical-align: bottom;
+	width: 100%;
+	margin-bottom: 20px;
+	font-weight:bold;
+	letter-spacing:1px;
+}
+#layout-nav {
+	float: left;
+	margin-right: 5px;
+	overflow: hidden;
+	width: 180px;
+}
+.msg-reservations {
+	background: #FFF;
+	padding: 10px;
+	margin-top: 5px;
+	color: black;
+}
+#layout-body-container {
+	float: left;
+	margin: 0;
+	width: 735px;
+}
+#progress-bar {
+	margin: 15px 0;
+}
+#progress-bar ul li {
+	display: inline;
+	font: normal 12px/14px arial, verdana, sans-serif;
+	list-style-type: none;
+	padding: 6px 30px 4px 7px;;
+	background: url(../images/Reservation/reservations_sprite.gif) 0 -481px no-repeat;
+	font-family: Tahoma, san-serif;
+	padding-bottom: 5px;
+	font-size: 11px;
+}
+#progress-bar li{
+	float:left;
+}
+#progress-bar li div{
+	display:inline;
+	margin-right:10px;
+}
+#progress-bar ul li.current{
+	color: #4195AB;
+	font-weight: bold;
+	background-position: 0 -482px;
+}
+#progress-bar ul li.current div, #progress-bar ul li.completed div {
+	color: white;
+}
+#progress-bar ul li.pending {
+	color: #838282;
+	background-position: 0 -518px;
+}
+ul {
+	list-style: none;
+	padding: 2px 0 7px;
+}
+.reservation-body-container {
+    width: 733px;
+}
+.reservation-body-container input[type="text"], .reservation-body-container select {
+    display: block;
+}
+.reservation-body-container {
+    background: white;
+    border: 1px solid #CECDBE;
+    float: left;
+    width: 732px;
+    font: normal 11px/14px arial, sans-serif;
+    margin: 0 10px 20px 0;
+}
+.clearfix::after, .clearFloat::after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.reservation-body-container h3 {
+    color: #333;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 14px;
+}
+.reservation-body-container .column-one {
+    width: 270px;
+}
+.reservation-body-container .column-one {
+    float: left;
+    width: 370px;
+    margin: 15px 0 20px 10px;
+}
+.reservation-body-container div.selectdate {
+    padding-bottom: 0;
+    height: 44px;
+}
+.selectdate, .selectguest, .selectroom {
+    width: 135px;
+}
+.reservation-body-container .column-one .selectroom, .reservation-body-container .column-one .selectguest {
+    padding-bottom: 6px;
+}
+.selectdate, .selectguest, .selectroom {
+    float: left;
+    width: 180px;
+    color: #CECDBE;
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 14px;
+    padding-bottom: 10px;
+}
+.reservation-body-container div label {
+    margin-top: 3px;
+}
+.buttons-right {
+    text-align: right;
+    padding: 7px 10px;
+    clear: both;
+}
+input[type="submit"], .button-submit, button.submit, button.submit-hover, a.button-submit:link, a.button-submit:visited, a.button-submit:hover, a.button-submit:active {
+    background: #4195AB;
+    font: normal 10px/12px 'Abadi MT Regular',Arial,san-serif;
+}
+input[type="submit"],button.submit, button.submit-hover, a.button-submit:link, a.button-submit:visited, a.button-submit:hover, a.button-submit:active, button.clear, button.clear-hover, a.button-clear:link, a.button-clear:visited, a.button-clear:hover, a.button-clear:active, #layout-body-container a.button-submit:link, #layout-body-container a.button-submit:visited, #layout-body-container a.button-submit:hover {
+    border: 0;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font: bold 10px/19px arial, helvetica, sans-serif;
+    height: 19px;
+    padding: 0 9px;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    border-image: initial;
+}
+#tblDetailsRoom tr td,#tblinputCustomer tr td{
+    padding:5px;
+}

@@ -1,0 +1,11 @@
+.containaboutus{
+    width:700px;
+    margin: 60px auto;
+}
+.containaboutus img{
+    float:left;
+}
+#keterangan{
+    text-indent: 40px;
+    text-align: justify;
+}

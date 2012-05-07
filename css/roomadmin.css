@@ -1,0 +1,67 @@
+#tblListRoomType{
+	width:97%;
+	border-collapse:collapse;
+        margin:20px;
+        font-size: 13px;
+        border: 1px solid #CCC;
+}
+#tblListRoomType thead tr{
+	background: #fcfff4; /* Old browsers */
+        background: -moz-linear-gradient(top,  #fcfff4 0%, #e9e9ce 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcfff4), color-stop(100%,#e9e9ce)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  #fcfff4 0%,#e9e9ce 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  #fcfff4 0%,#e9e9ce 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  #fcfff4 0%,#e9e9ce 100%); /* IE10+ */
+        background: linear-gradient(top,  #fcfff4 0%,#e9e9ce 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#e9e9ce',GradientType=0 ); /* IE6-9 */
+
+        font-weight: bold;
+}
+#tblListRoomType thead tr td{ 
+        padding:7px;
+}
+#tblListRoomType tbody tr td{
+    padding:4px;
+}
+#tblListRoomType tbody tr:hover{
+    background-color: #BFBFBF;
+}
+#tblListRoomType tfoot tr td{
+    padding:8px;
+}
+.ListRoomTypeContainer{
+	font-family: "Lucida Grande",Arial,Verdana,Helvetica,sans-serif;
+	width: 100%;
+	border: 1px solid #fafafa;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	-moz-box-shadow: 0 0 4px 0 #999;
+	-webkit-box-shadow: 0 0 4px 0 #999;
+	box-shadow: 0 0 4px 0 #999;
+}
+#titlediv{
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#FAFAFA', endColorstr='#E4E4E4');
+        -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#FAFAFA', endColorstr='#E4E4E4')";
+        background-color: #FAFAFA;
+        background-image: -webkit-gradient(linear,left top,left bottom,from(#FAFAFA),to(#E4E4E4));
+        background-image: -webkit-linear-gradient(top, #FAFAFA, #E4E4E4);
+        background-image: -moz-linear-gradient(top, #FAFAFA, #E4E4E4);
+        background-image: -ms-linear-gradient(top, #FAFAFA, #E4E4E4);
+        background-image: -o-linear-gradient(top, #FAFAFA, #E4E4E4);
+        background-image: linear-gradient(to bottom, #FAFAFA, #E4E4E4);
+        background: linear-gradient(#FAFAFA, #E4E4E4);
+        border: 1px solid #EAEAEA;
+        border: 1px solid #EAEAEA;
+        color: #777;
+	padding: 20px 0 20px 20px;
+	font-size: 21px;
+	font-family: arial, verdana;
+	border-image: initial;
+	border-radius: 5px 5px 0 0;
+	width: 97.9%;
+}
+span.noreservation{
+    color: Black;
+    font-weight:bold;
+}

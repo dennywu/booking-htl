@@ -1,0 +1,103 @@
+﻿div#loadingElementContainer{
+	width: 300px;
+    margin: auto;
+    border: 1px Solid #B1AF2E;
+    padding: 0 1px 0 1px;
+    max-height: 130px;
+    overflow-y: auto;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 3px;
+    background-color: #FCFBAA;
+    -webkit-transition: 0.1ms;
+    z-index: 9999;
+    left: 0;
+    top: 15px;
+    display: block;
+    position: fixed;
+    right: 0;
+}
+div.LoadingElement{
+	text-align:center;
+	margin:1px 0 0 0;
+	padding:10px 0 10px 0;
+	right:2px;
+	color: #666;
+	border-radius: 3px;
+	background-color: #f9f8c5;
+	background: -webkit-gradient( linear, left bottom, left top, color-stop(0,#f9f8c5), color-stop(1, #f9f8c5) );
+	background: -moz-linear-gradient( center bottom, #f9f8c5 0%, #f9f8c5 100% );  
+	border: 1px solid #dedc39;
+}
+/* Turn on a 13x13 scrollbar */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+}
+ 
+::-webkit-scrollbar-button:vertical {
+    background-color: transparent;
+    border: 1px dashed blue;
+}
+ 
+/* Turn on single button up on top, and down on bottom */
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment {
+    display: block;
+}
+ 
+/* Turn off the down area up on top, and up area on bottom */
+::-webkit-scrollbar-button:vertical:start:increment,
+::-webkit-scrollbar-button:vertical:end:decrement {display: none;}
+ 
+/* Place The scroll down button at the bottom */
+::-webkit-scrollbar-button:vertical:increment {
+    background-color: transparent;
+    border: 0px dashed blue;
+	height:0px;
+}
+ 
+/* Place The scroll up button at the up */
+::-webkit-scrollbar-button:vertical:decrement {
+    background-color: transparent;
+    border: 0px dashed blue;
+	height:0px;
+}
+ 
+::-webkit-scrollbar-track:vertical {
+    background-color: transparent;
+    border: 0px dashed pink;
+}
+ 
+/* Top area above thumb and below up button */
+::-webkit-scrollbar-track-piece:vertical:start {
+    border: 0px solid transparent;
+}
+ 
+/* Bottom area below thumb and down button */
+::-webkit-scrollbar-track-piece:vertical:end {
+    border: 0px dashed transparent;
+}
+ 
+/* Track below and above */
+::-webkit-scrollbar-track-piece {
+    background-color: transparent;
+}
+ 
+/* The thumb itself */
+::-webkit-scrollbar-thumb:vertical {
+    height: 50px;
+    background-color: #555252;
+	-webkit-border-radius: 8px;
+	margin-right:3px;
+}
+ 
+/* Corner */
+::-webkit-scrollbar-corner:vertical {
+    background-color: transparent;
+}
+ 
+/* Resizer */
+::-webkit-scrollbar-resizer:vertical {
+    background-color: transparent;
+}

@@ -1,0 +1,57 @@
+*{padding:0px;margin:0px;}
+body{padding: 0px;margin:0px;font-size:14px;font-family: "Trebuchet MS";color:#999;background-color:#ddd;}
+div.mainContainer{background-color:White;width: 1220px;margin-left:0px;overflow:hidden;position:relative;left:73px;height:auto;}
+div.headerContainer{height: 119px;width: 100%;margin: 0 auto;position: relative;z-index: 0;background:#999 url(../images/Home/hdr_bg_tile.png) repeat-x}
+div.headerContain{width: 985px;height: 100%;margin: 0 auto;position: relative;}
+div.logo{float:left;width:150px;height:100%;}
+div.globalNav{margin: 8px 0 0 0;text-align: right;padding: 0 10px 0 0;}
+div.globalNav ul{list-style:none;text-align:right;}
+div.globalNav ul li{margin: 0 0 0 14px;display: inline;cursor:pointer;}
+div.globalNav ul li a{font-family: Arial, Helvetica, sans-serif;font-size: 8px;font-weight: bold;text-transform: uppercase;letter-spacing: .14em;color: #666;text-decoration: none;}
+div.globalNav ul li:hover a{color:#4195AB;}
+div.infoHeader{position: absolute;bottom: 60px;right: 0px;width: 800px;color: #999;font: normal 11px Arial, Helvetica, sans-serif;margin: 0 10px 0 0;}
+div.infoHeader h1{margin: 0 0 2px 0;font: normal 17px Georgia, "Times New Roman", Times, serif;color: #333;letter-spacing: 1px;}
+div.infoHeader span{font: normal 20px Georgia, "Times New Roman", Times, serif;color: #333;letter-spacing: 1px;}
+div.infoAddressHeader{float: left;margin-right: 30px;white-space: nowrap;}
+div.infoContact{float: left;white-space: nowrap;}
+div.nav{width: 771px;height: 22px;padding: 6px 10px 0 0;position: absolute;top: 80px;right: 145px;z-index: 12;border-top: 1px solid #999;line-height:5px;}
+ul.ulNav{list-style:none;}
+ul.ulNav a{font-family: Arial, Helvetica, sans-serif;font-size: 0.7em;text-decoration: none;}
+ul.ulNav li{float: left;position: relative;}
+ul.ulNav li a{text-transform: uppercase;background: white;color: #595959;font-weight: bold;padding-right: 15px;cursor:pointer;}
+ul.ulNav li:hover a{color:#4195AB;}
+#mainmenu ul li{display: inline;}
+#mainmenu ul li a
+{
+	font-family:"Arial, Helvetica, sans-serif";
+	color:#666;
+	background-color:transparent;
+	font-size:0.9em;
+	text-decoration:none;
+	padding:0px 8px;
+}
+
+#mainmenu ul li a:hover, #mainmenu ul li.active a
+{
+	color: #4195AB;
+	text-decoration:none;
+}
+div.bodyContain{min-height:520px;margin-top:-5px;background:White;}
+#footer
+{
+	padding: 10px;
+	margin: 10px 20px;
+	font-size: 0.8em;
+	text-align: center;
+	border-top: 1px solid #C9E0ED;
+}
+form, label, select, input, textarea, fieldset, legend {
+    color: #333;
+    font: normal 11px/15px arial, helvetica, sans-serif;
+}
+input[type="text"]{
+    min-width: 140px;
+}
+div.clear{
+    clear: both;
+}
