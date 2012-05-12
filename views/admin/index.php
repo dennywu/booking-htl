@@ -16,7 +16,7 @@
             {
                 header("Location:/viona/login.php");
             }else{
-                include_once "/header.php";
+                include_once "header.php";
         ?>
             <div class="container-adminpage">
 		<table width="100%" cellpadding="0" border="0">

@@ -23,7 +23,13 @@
                     Moto kami yang adalah ” Memberikan Pelayanan Terbaik Untuk Seluruh Konsumen dan Tidak memandang status ataupun, tingkat, ataupun jabatan” karena kami ada karena anda dan kami kan membantu anda sebaik mungkin untuk memberikan pelayan yang dapat memuaskan anda. Dan merupakan suatu kehormatan kepada kami dimana konsumen dapat memberikan kepercayaan terhadap perusahaan kami untuk melakukan perjalanan yang nyaman dan pelayanan yang terbaik.
                     Terima kasih kepada seluruh masyarakat Batam Propinsi Kepulauan Riau  khususnya dan Masyarakat Indonesia pada umumnya yang telah memberi kami kepercayaan.
                     </div>
+					<div style="margin-top:30px;">
+						<iframe width="700" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=&amp;daddr=&amp;hl=en&amp;geocode=&amp;t=h&amp;doflg=ptk&amp;mra=mr&amp;ie=UTF8&amp;ll=1.14999,104.025121&amp;spn=0.003256,0.005284&amp;z=18&amp;output=embed">
+						</iframe>
+						<br />
+					</div>
                 </div>
+				
             </div>
             <div class="clear"></div>
 

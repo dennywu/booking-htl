@@ -13,7 +13,6 @@ function booking(){
         return alert("silahkan isi data anda dengan lengkap");
     RESERVATION.Customer = cust;
     RESERVATION.Keterangan = $("cust-keterangan").val();
-    
     $.ajax({
         type:'POST',
         url:'/viona/Application/Booking.php',
@@ -42,7 +41,10 @@ function booking(){
                 "</td>"+
             "</tr>");
             $("#tblDetailsRoom tbody").append("<tr><td colspan='4'><div class='buttons-right'><input type='submit' value='Cetak' id='buttonprint''/></div></td></tr>");
+            $("#tblDetailsRoom tbody").append("<tr><td colspan='4'><div id='payment'></div></td></tr>");
             $("#buttonprint").click(printBooking);
+            $("#payment").load("/viona/views/reservation/payment.html");
+            setDataPayment(result);
         },
         error:function(a,b,c){
             console.log(a);
@@ -54,4 +56,13 @@ function booking(){
 function printBooking(){
     var print = $("#selectDate");
     print.jqprint();
+}
+function setDataPayment(no){
+            window.setTimeout(function(){
+            $("#first_name").val(RESERVATION.Customer.Name);
+            $("#payer_email").val(RESERVATION.Customer.Email);
+            $("#itemname").val("Hotel Viona (kode booking:" + no);
+            $("#item_number").val(no);
+            $("#totalpayment").val($("#totalAkhir").val());
+            },1000);
 }

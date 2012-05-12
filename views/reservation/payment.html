@@ -1,0 +1,14 @@
+<form class="paypal" action="/viona/Application/Payment.php" method="post" id="paypal_form" target="_blank">    
+    <input type="hidden" name="cmd" value="_xclick" /> 
+    <input type="hidden" name="no_note" value="1" />
+    <input type="hidden" name="lc" value="USD" />
+    <input type="hidden" name="currency_code" value="USD" />
+    <input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynow_LG.gif:NonHostedGuest" />
+    <input type="hidden" id="first_name" name="first_name" />
+    <input type="hidden" name="last_name" value="Customer's Last Name"  />
+    <input type="hidden" id="payer_email" name="payer_email" value="customer@example.com"  />
+    <input type="hidden" name="item" id="itemname"/>
+    <input type="hidden" name="amount1"  id="totalpayment"/>
+    <input type="hidden" name="item_number" id="item_number" />
+    <div class='buttons-right'><input type="submit" id="submitpayment" value="Pembayaran"/></div>
+</form>

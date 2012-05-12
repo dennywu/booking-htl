@@ -3,7 +3,7 @@
             <div id="header">
                 <div class="container">
                     <div class="logo">
-                        <img src="/viona/images/home/logo-organization.png" class="LogoOrganization" height="35px" style="padding-top:1px;"/>
+                        <img src="/viona/images/Home/logo-organization.png" class="LogoOrganization" height="35px" style="padding-top:1px;"/>
                     </div>
                     <div class="organization">
                         Viona Duta Samudra Tour & Travel, PT
@@ -42,7 +42,7 @@
                                     <a href='/viona/views/admin/customer.php'><span>Pelanggan</span></a>
                             </li>
                             <li id="ReportLink">
-                                    <a href='report'><span>Laporan</span></a>
+                                    <a href='/viona/views/admin/report.php'><span>Laporan</span></a>
                             </li>
                             <li id="SettingLink">
                                     <a href='/viona/views/admin/setting.php'><span>Pengaturan</span></a>

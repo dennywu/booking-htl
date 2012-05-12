@@ -128,7 +128,7 @@ function createDetailRoom(data){
         "</tr>");
     }
     else{
-        var total = night * data.Price;
+        var total = (night * data.Price).toString();
         $("#detail_"+data.TypeId).append("<tr>"+
             "<td bgcolor='#ece7db' style='padding: 5px 5px 5px 5px;'><strong>Total Harga dan Kamar</strong></td>"+
             "<td bgcolor='#ece7db' style='padding: 5px 5px 5px 5px;'> Rp."+ data.Price.toCurrency(2)  +"</td>"+

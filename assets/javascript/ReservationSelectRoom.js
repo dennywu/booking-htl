@@ -86,7 +86,7 @@ function showCustomerInputData(){
         "</tr>");
     $("#tblDetailsRoom").append("<tr>"+
         "<td bgcolor='#c7b998' align='right' colspan='3'><strong>Total Akhir</strong></td>"+
-        "<td bgcolor='#c7b998' align='center'>Rp. "+ totalAkhir.toCurrency(2) +"</td>"+
+        "<td bgcolor='#c7b998' align='center'><input type='hidden' value='"+ totalAkhir +"' id='totalAkhir'/>'Rp. "+ totalAkhir.toCurrency(2) +"</td>"+
         "</tr>");
 }
 function getTotalKamar(){
