@@ -17,7 +17,7 @@
                         <div id="mainmenu">
                             <ul class="ulNav">
                                 <li><a href="/viona/index.php">Beranda</a></li>
-                                <li><a>Rooms</a></li>
+                                <li><a href="/viona/rooms.php">Rooms</a></li>
                                 <li><a href="/viona/reservation.php">Reservasi</a></li>
                                 <li><a href="/viona/aboutus.php">AboutUs</a></li>
                             </ul>                    
