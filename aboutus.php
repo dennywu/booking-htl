@@ -16,7 +16,7 @@
                 </div>
             <div class="bodyContain">
                 <div class="containaboutus">
-                    <img src="/viona/images/home/logo-organization.png"/>
+                    <img src="/viona/images/Home/logo-organization.png"/>
                     <div id="keterangan">
                     Kami Adalah Perusahaan yang bergerak dibidang Jasa Tour & Travel dan juga pengurusan dokumen legalistas yang dapat membantu anda untuk berpergian ke luar daerah ataupun luar negeri, Kami memberikan penewaran – penawaran terbaik kepada anda dalam melakukan perjalanan baik Domestik ataupun International Travel.
                     Kami Ada di kota batam karena untuk memenuhi kebutuhan masyarakat kota batam dalam melakukan perjalanan, baik domestik ataupun international, kemudahan-kemudahan dalam melakukan perjalanan adalah suatu perencanaan yang baik dan dapat dilihat dari pelayanan-pelayanan yang diberikan oleh Perusahaan Tour & Travel itu sendiri.
