@@ -1,3 +1,3 @@
-Copyright &copy; <?php echo date('Y'); ?> by Team Aneh.<br/>
+Copyright &copy; <?php echo date('Y'); ?>.<br/>
                     All Rights Reserved.<br/>
-                    <?php echo "Powered By #####"; ?>
+                    <?php echo "Powered By Hendra Eja"; ?>
