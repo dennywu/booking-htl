@@ -11,5 +11,8 @@
         $_SESSION["admin"] = $row["username"];
         header("Location:/viona/views/admin/index.php");
     }
-        
+    else
+    {
+        header("Location:/viona/login.php");
+    }
 ?>
