@@ -11,7 +11,7 @@ function CreateDivDetailReservasi() {
                             "<tr><td>Status</td>" +
                             "<td>"+
                             "<select id='status'>"+
-                                "<option value='0' selected>-</option>"+
+                                "<option value='0' selected>Semua</option>"+
                                 "<option value='Booking'>Booking</option>"+
                                 "<option value='Paid'>Paid</option>"+
                                 "<option value='Checkin'>Checkin</option>"+
@@ -42,10 +42,9 @@ function CreateDivDetailReservasi() {
 }
 
 function FindDetailReservation() {
-    var status = $("#status").val();
     var dari = $("#dari").val();
     var sampai = $("#sampai").val();
-    if (status == 0 || dari == "" || sampai == "")
+    if (dari == "" || sampai == "")
         return alert("Semua Field Harus Di Isi");
     $("#tabContainer").hide();
     CreateTableDetailReservation();

@@ -40,6 +40,14 @@ function booking(){
                     "Nama Pelanggan : (<span style='font-weight:bold;'>"+ RESERVATION.Customer.Title +" " +RESERVATION.Customer.Name+"</span>)"+
                 "</td>"+
             "</tr>");
+            $("#tblDetailsRoom tbody").append("<tr><td colspan='4'>Cara pembayaran penyewaan hotel <strong>Viona Duta Samudra</strong> bisa menggunakan Paypal dan transfer. <br/>"+
+                "Klik tombol pembayaran jika menggunakan Paypal. Jika menggunakan cara transfer, silahkan transfer tunai ke rekening:<br/>"+
+                "5270984977 a/n Viona Duta Samudra. <br/>Segara konfirmasi jika terah melakukan pembayaran."+
+                "Untuk informasi lebih lanjut, hubungi : <br/><br/>"+
+                "<strong>Viona Duta Samudra</strong><br/>"+
+                "Telp :  (0778) 23459 <br/>"+
+                "Alamat : Komplek Ruko Saudara Hasta Mandiri No. 1C, Bengkong Indah, Batam<br/>"+
+                "</td></tr>");
             $("#tblDetailsRoom tbody").append("<tr><td colspan='4'><div class='buttons-right'><input type='submit' value='Cetak' id='buttonprint''/></div></td></tr>");
             $("#tblDetailsRoom tbody").append("<tr><td colspan='4'><div id='payment'></div></td></tr>");
             $("#buttonprint").click(printBooking);
